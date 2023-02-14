@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+    
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p, body {
+    font-size: 0.9em;
+}
+
+header {
+    margin: 2em 5em;
+    height: 45px;
+    border-radius: 5%;
+}
+
+header h1 { 
+    background-color: #F5F5F5;
+    padding-left: 0.5em;
+    white-space: nowrap;
+}
+
+#right-sidebar {
+    margin: 0em 0em 2em 5em;
+    float: left;
+    background-color: #F5F5F5;
+    height: 600px;
+    width: 10em;
+    padding: 1em;
+}
+
+#center {
+    margin: 0em 5em 2em 20em;
+    background-color: #F5F5F5;
+    height: 600px;
+    overflow: auto;
+    padding: 1em;
+}
+
+#center h1 {
+    margin: 0em;
+}
+
+figure {
+    position: relative;
+    float: left;
+}
+
+figcaption {
+    position: absolute;
+    width: 98%;
+    height: 15%;
+    padding: 0.1em;
+    bottom: 0.2em;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.overlayed {
+    position: absolute;
+    right: 0.1em;
+}
+
+a {
+    background-color: #ff8800;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    float: right;
+    display: block;
+}
+
+.entry {
+    float: left;
+    clear: both;
+    border-top: solid 1px #ff8800;
+}
+
+footer {
+    background-color: #474747;
+    padding: 0.1em;
+}
+
+footer img {
+    margin: 0.2em;
+}
+
+footer h2, footer p {
+    color: rgb(184, 177, 177);
+}
+
+.footer-related {
+    border-top: solid 1px #ff8800;
+    float: left;
+    margin: 2em 3em;
+
+}
+
+.footer-section {
+    border-top: solid 1px #ff8800;
+    margin: 2em 5em 2em 23em;
+}
